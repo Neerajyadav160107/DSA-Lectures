@@ -1,0 +1,15 @@
+// QUESTION : Take float input and print the fractional part of the real numbers . 
+// A BIT OF GIF Function knowledde needed 
+#include <iostream>
+using namespace std;
+int main() {
+    float x;
+    cin>>x; // 9.1
+    int y = (int)x;// y=9
+    float z= (float) y; // z=9  
+    x=x-z;
+    cout<<x;
+    return 0;
+}    
+
+// DOUBT 
