@@ -7,3 +7,4 @@ int main () {
     cout<<"The area of the circle is "<<a;
     return 0;
 }
+// printing area of circle 
