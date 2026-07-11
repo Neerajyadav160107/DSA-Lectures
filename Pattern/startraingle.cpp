@@ -13,6 +13,8 @@ int main () {
 
 
 }
+
+//...
 /* First we check that i < =n then fo inside the loop 
 then checks j<=1 then the condistion runs cout<<"*" for once as in the next loop j>i 
 the loops ends then 
