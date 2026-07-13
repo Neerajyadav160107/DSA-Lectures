@@ -1,12 +1,3 @@
-// WAP to print the given pattern 
-//      *
-//    * *
-//  * * *
-//* * * *
-
-/* ALGO : 1st a reverse space pattern like start is printed so n-1 is being used for its reversal.
-          2ndly to overlapped an another flipped star pattern  */
-
 #include <iostream>
 using namespace std;
 int main () {
@@ -20,12 +11,12 @@ int main () {
 
         }
         //stars 
+        
         for (int k=1; k<=i; k++){
-            cout <<"*"<< " ";
+            cout <<k<< " ";
         }
         cout<<endl;
     }
 
 
 }
-
