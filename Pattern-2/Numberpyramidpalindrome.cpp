@@ -27,9 +27,14 @@ int main () {
         for ( int k=1;k<=n-i;k++){
             cout << " "; 
         }
+        // reverse star traingle 
         for ( int j=1 ; j<=i; j++){
             cout << j ;
 
+        }
+        // reverse number star traingle 
+        for ( int q=i-1; q>=1;q--){
+            cout << q;
         }
         cout << endl ;
     }
