@@ -4,6 +4,7 @@
 // srqt(x);
 
 #include <iostream>
+#include<cmath>
 using namespace std;
 int mini ( int x , int y) {
     int a ;
@@ -13,7 +14,9 @@ int mini ( int x , int y) {
 
 }
 int main () {
-    int x ,y;
-    cin >>x>>y;
-    cout <<mini (x,y);
+    // int x ,y;
+    // cin >>x>>y;
+    // cout <<max(x,y);
+    cout <<sqrt(9025);
 }
+// sqrt is a mathematical term for which #include <cmath> added in the beginning .
