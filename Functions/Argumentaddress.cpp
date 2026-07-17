@@ -6,8 +6,8 @@ void fun(int x, int y){
 
 }
 int main () {
-    int x;
-    int y;
+    int x=3;
+    int y=7;
     cout<<"address of main x" <<&x<<endl;
     cout<<"address of main y" <<&y<<endl;
     fun(x,y);
