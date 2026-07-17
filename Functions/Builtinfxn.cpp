@@ -19,4 +19,4 @@ int main () {
     // cout <<max(x,y);
     cout <<sqrt(9025);
 }
-// sqrt is a mathematical term for which #include <cmath> added in the beginning .
+// sqrt is a mathematical term for which a header file #include <cmath> added in the beginning .
