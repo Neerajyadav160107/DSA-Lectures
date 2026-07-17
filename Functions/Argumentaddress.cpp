@@ -16,3 +16,8 @@ int main () {
 }
 // Arguments:Values passed to a function when it is called, allowing the function to work with different inputs.
 // Address: The memory location of a variable, accessed using the address-of (`&`) operator in C++.
+// Whenever we call a fxn
+// here fun(x,y): actual parameters
+// and ( int x , int y) which are receiving the values of x and y are : formal parameters 
+// Actual Parameters: The values or variables passed to a function when it is called.
+// Formal Parameters: The variables declared in the function definition that receive the actual parameters.
