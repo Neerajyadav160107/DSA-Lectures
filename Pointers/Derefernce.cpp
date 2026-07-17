@@ -8,9 +8,8 @@ int main () {
     cout<<x;
 
 }
-//Dereference Operator :
-// 1st it makes a variable int x =122;
-// then same for p 
-// then cout *p means--> it goes to the address of the variable stored in the p and prints the value of that variable . 
-// basically easy way out to access value of variable through pointer . 
-// we can update the value through pointer too .
+// Dereference Operator (*):
+// It accesses the value stored at the memory address held by a pointer.
+// Example: int x = 122; int *p = &x;
+// cout << *p;  // Prints the value of x (122).
+// *p can also be used to modify the value of x through the pointer.
