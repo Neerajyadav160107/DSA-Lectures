@@ -7,3 +7,8 @@ int main () {
     cout <<y;
 
 }
+//Pointer Syntax:
+// A pointer must store the address of a variable using the '&' operator.
+
+// Fix:
+// Corrected invalid pointer initialization and declaration syntax.
