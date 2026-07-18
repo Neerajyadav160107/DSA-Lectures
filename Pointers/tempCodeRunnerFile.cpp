@@ -1,3 +1,1 @@
-cout<<x<<endl;
-    // //*p =y;
-    // cout <<x;
+ cout<<"Enter Input:";
