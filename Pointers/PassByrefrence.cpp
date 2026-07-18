@@ -12,3 +12,4 @@ int main () {
     swap(&a,&b);// int* = &a; we can fetch the value of x 
     cout <<a<<" "<<b;
 }
+// refrence alias in a way 
