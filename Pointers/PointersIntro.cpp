@@ -12,4 +12,6 @@ int main () {
 }
 
 // SYNTAX : data_type * pointer_name;
-
+// Pointer:
+// A pointer is a variable that stores the memory address of another variable.
+// It allows us to access and modify the variable indirectly using its address.
