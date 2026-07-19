@@ -15,9 +15,15 @@
 using namespace std ;
 int main () {
     //Declration and Initilization
-    int arr[7] ={ 1,2,3,4,5,6,8};
-
-    cout<<arr[2];
+    int arr[7];
+    //input 
+    for (int i=0; i<=6;i++){
+        cin>>arr[i];
+    }
+    //Printing Output 
+    for (int i=0;i<=6;i++){
+        cout<<arr[i]<< " ";
+    }
 }
 //How to access elements in array ?
 // cout<<arr[index of array];
