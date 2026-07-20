@@ -18,3 +18,6 @@ int main () {
 
 
 }
+// Input in Arrays:
+// Since an array stores multiple elements, we use a loop to take input
+// and process each element one by one.
