@@ -10,6 +10,7 @@ int main () {
     cout<<&arr[4]<<endl;
     cout<<&arr;
 }
+// Also : cout<<arr ; cout<<arr[0] both prints the address of the 0th index of the 1st byte .
 // IMP : Address of an array is the address of the 1st byte of its 1st element .
 // 0x16f1aeaa4      a4
 // 0x16f1aeaa8      a8
