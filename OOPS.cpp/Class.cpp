@@ -55,3 +55,7 @@ int main () {
 // Inheritance is an OOP feature that allows one class (derived class)
 // to acquire the properties and behaviors of another class (base class),
 // promoting code reusability and extensibility.
+
+// Access Modifiers:
+// Access modifiers control the visibility and accessibility of class members.
+// The three access modifiers in C++ are: public, private, and protected.
