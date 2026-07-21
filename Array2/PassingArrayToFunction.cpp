@@ -21,3 +21,6 @@ int main () {
 }
 
 //Array is pass by reference
+// When we pass an array as an argument to a funation :
+// - address of the array is passed
+// -address of the 1st element of the array .
