@@ -27,3 +27,13 @@ int main (){
 
     return 0;
 }
+
+// Size:
+// Size is the number of elements currently stored in the vector.
+
+// Capacity:
+// Capacity is the total number of elements a vector can hold before
+// it needs to allocate more memory.
+
+// If size == capacity and push_back() is called,
+// capacity usually doubles (implementation-dependent).
