@@ -1,9 +1,5 @@
-int i=0;
-    // int j=v.size()-1;
-    // while(i<=j){
-    //     //swap v[i] and v[j]
+for ( int i=0,j=v.size()-1;i<=j;i++,j--){
     //     int temp =v[i];
     //     v[i]=v[j];
-    //     v[j]=temp;
-    //     i++;
-    //     j--;
+    //     v[j]=temp; 
+    // }
