@@ -35,6 +35,7 @@ int main () {
     int k=2;
     int n=v.size();
     cout<<endl;
+    // rotate :
     reversepart(0,n-k-1,v);
     reversepart(n-k,n-1,v);
     reversepart(0,n-1,v);
