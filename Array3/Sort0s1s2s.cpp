@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std ;
+//DUTCH ALGORITHM MTHD
 
 void sortnumbers(vector<int>&v){
     int n=v.size();
