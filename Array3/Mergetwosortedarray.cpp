@@ -61,6 +61,6 @@ int main() {
     return 0;
 }
 // Logic:
-// Compare the current elements of both sorted arrays.
-// Insert the smaller element into the result array and move its pointer forward.
-// After one array is exhausted, copy the remaining elements of the other array.
+// Use three pointers: i for arr1, j for arr2, and k for the result array.
+// Compare elements of both arrays, place the smaller one in the result,
+// then copy any remaining elements after one array is exhausted.
