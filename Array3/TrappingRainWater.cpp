@@ -52,3 +52,7 @@ int main() {
 
     return 0;
 }   
+// Logic:
+// Compute the tallest bar on the left and right of each index.
+// Water trapped at an index = min(leftMax, rightMax) - height[i] (if positive).
+// Sum the trapped water for all indices.
