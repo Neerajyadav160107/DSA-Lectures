@@ -9,6 +9,5 @@
 // number of rows, and number of columns.
 
 int arr[3][4];   // 3 rows, 4 columns
-// format 
-// data_type array_name[rows][columns];
-
+// syntax of a 2d array
+// data_type array_name[rows][columns]
