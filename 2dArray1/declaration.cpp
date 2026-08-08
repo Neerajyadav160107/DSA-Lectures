@@ -2,11 +2,14 @@
 using namespace std;
 int main() {
     int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}}; //declartion
-    // rows-> 3      0-2
-    // columns ->3   0-2
-    cout<<arr[0][1];
+    for (int i =0; i<=2;i++){ // i is row
+        for(int j=0;j<=2;j++){
+        cout<<arr[i][j]<<" ";
+        }
+        cout<<endl;
+    }
 }
-// Declaration:
-// Syntax: data_type arr[rows][columns];
-// In a 2D array, the column size must be specified during declaration.
-// Example: int arr[][3];
+// Logic:
+// Use nested loops to traverse the 2D array.
+// Outer loop (i) → rows, inner loop (j) → columns.
+// Print each element as arr[i][j].
