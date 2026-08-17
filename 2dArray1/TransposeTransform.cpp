@@ -38,3 +38,7 @@ int main () {
     }
 
 }    
+
+// Logic:
+// Swap arr[i][j] with arr[j][i] only for j > i.
+// This swaps elements across the main diagonal without using another matrix.
