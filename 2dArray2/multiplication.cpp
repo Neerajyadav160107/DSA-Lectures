@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     int m, n, p, q;
     cout << "enter rows of 1st matrix: ";
@@ -20,6 +19,7 @@ int main() {
                 cin >> a[i][j];
             }
         }
+        
         int b[p][q];
         cout << "Enter elements of 2nd matrix: "<<endl;
         for (int i = 0; i < p; i++) {
@@ -49,3 +49,8 @@ int main() {
         cout << "The matrices cannot be multiplied";
     }
 }
+// Logic:
+// Matrix multiplication is possible only when columns of A == rows of B.
+// For each result cell, multiply corresponding elements of a row of A
+// with a column of B and accumulate their sum.
+// Result[i][j] = Row i of A × Column j of B
