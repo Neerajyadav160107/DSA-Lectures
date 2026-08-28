@@ -1,5 +1,4 @@
-//if row = (2n+1) row in --->
-// if row=2n then row is <---
+
 #include <iostream>
 using namespace std;
 int main () {
@@ -16,17 +15,10 @@ int main () {
         }
     }
     cout<<endl;
-    // wave print ;
-    for (int i = 0; i < m; i++) {
-    if (i % 2 == 0) {
-        for (int j = n-1; j >= 0; j--) {
-            cout << arr[i][j] << " ";
+    // columnwise wave printing :
+    for ( int j = 0; j<n ;j++){
+        for ( int i =0 ;i <m ;i++){
+            cout<<arr[i][j]<<" ";
         }
     }
-    else { // i =1,3,5
-        for (int j = 0; j < n; j++) {
-            cout << arr[i][j] << " ";
-        }
-    }
-}
 }                    
