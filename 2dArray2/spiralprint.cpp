@@ -58,3 +58,12 @@ int main() {
 
     return 0;
 }
+// Logic:
+// Maintain four boundaries: min_row, max_row, min_col, max_col.
+// Traverse Right → Down → Left → Up, then shrink the boundaries after each traversal.
+
+// Right → Down → Left → Up
+// ↓
+// Shrink boundaries
+// ↓
+// Repeat
