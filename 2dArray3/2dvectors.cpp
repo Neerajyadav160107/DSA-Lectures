@@ -28,6 +28,4 @@ int main (){
     cout <<v[0][0];
     cout <<v[1][0];
     cout <<v[2][0];
-
-
 }
