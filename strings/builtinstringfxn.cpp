@@ -30,7 +30,7 @@ int main (){
 //  reverse()
     string str="abcdef";
     cout<<str<<endl;
-    reverse(str.begin()+2,str.begin()+5);
+    reverse(str.begin(),str.end());
     cout<<str<<endl;
 
 }
