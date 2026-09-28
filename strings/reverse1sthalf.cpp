@@ -9,3 +9,4 @@ int main (){
     reverse(str.begin(),str.begin()+n/2);
     cout<<str<<endl;
 }
+// s.substr(idx,len)
